@@ -50,7 +50,7 @@ ingress:
   enabled: false
 
 secrets:
-  enabled: false
+  enabled: true
   list:
     - data:
         DB_USER:  "expense"
