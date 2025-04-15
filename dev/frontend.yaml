@@ -104,4 +104,5 @@ configmap:
                 access_log off;
             }
         }
+      }
     
