@@ -31,7 +31,7 @@ probes:
     failureThreshold: 3
 
 configmap:
-  DB_HOST: expense-db
+  DB_HOST: dev-mysql-external-name
   DB_DATABASE: transactions
 hpa:
   minReplicas: 1
