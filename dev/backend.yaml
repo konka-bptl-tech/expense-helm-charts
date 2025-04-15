@@ -5,9 +5,7 @@ labels:
   tier: application
 replicaCount: 1
 image:
-  repository: siva9666
-  name: expense-backend
-  tag: node
+  name: 522814728660.dkr.ecr.ap-south-1.amazonaws.com/expense-backend:v1
 resources:
   requests:
     memory: "128Mi"
