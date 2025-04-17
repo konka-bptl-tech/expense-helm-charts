@@ -56,5 +56,9 @@ ingress:
 #         DB_USER:  "expense"
 #         DB_PWD: "ExpenseApp@1"
 
+
 secrets:
+  enabled: true
+
+externalSecret:
   enabled: true
