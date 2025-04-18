@@ -44,7 +44,6 @@ hpa:
           type: Utilization
           averageUtilization: 50
 service:
-  type: ClusterIP
   port: 8080
 
 ingress:
