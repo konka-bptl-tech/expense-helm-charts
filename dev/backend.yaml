@@ -57,13 +57,13 @@ secrets:
         DB_PWD: "ExpenseApp@1"
 
 
-secrets:
-  enabled: true
+# secrets:
+#   enabled: true
 
 externalSecret:
   enabled: false
 
-secretStoreRef:
-  name: vault-backend 
+# secretStoreRef:
+#   name: vault-backend 
 
 
