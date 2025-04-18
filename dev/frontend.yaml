@@ -42,19 +42,18 @@ hpa:
 
 # Service
 service:
-  type: NodePort
   port: 80
 
-# # Ingress
-# ingress:
-#   enabled: true
-# alb:
-#   name: "ullagallu-konka"
-#   group: "ullagallu"
-#   scheme: "internet-facing"
-#   certificateArn: "arn:aws:acm:ap-south-1:522814728660:certificate/9bfb2029-8335-459b-9603-a814f500f774"
-# dns:
-#   hostname: "expense-dev.bapatlas.site"
+# Ingress
+ingress:
+  enabled: true
+alb:
+  name: "ullagallu-konka"
+  group: "ullagallu"
+  scheme: "internet-facing"
+  certificateArn: "arn:aws:acm:ap-south-1:522814728660:certificate/fe6839d9-7428-40c7-9128-c2116c8f257b"
+dns:
+  hostname: "dev-expense.konkas.tech"
 
 
 # Secrets
