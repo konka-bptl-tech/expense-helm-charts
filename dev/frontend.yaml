@@ -51,7 +51,7 @@ alb:
   name: "ullagallu-konka"
   group: "ullagallu"
   scheme: "internet-facing"
-  certificateArn: "arn:aws:acm:ap-south-1:522814728660:certificate/fe6839d9-7428-40c7-9128-c2116c8f257b"
+  certificateArn: "arn:aws:acm:ap-south-1:522814728660:certificate/38f29289-db30-4f4f-8394-2e589c3ad24c"
 dns:
   hostname: "dev-expense.konkas.tech"
 
