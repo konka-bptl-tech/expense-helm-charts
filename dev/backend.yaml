@@ -49,19 +49,19 @@ service:
 ingress:
   enabled: false
 
-# secrets:
-#   enabled: true
-#   list:
-#     - data:
-#         DB_USER:  "expense"
-#         DB_PWD: "ExpenseApp@1"
+secrets:
+  enabled: true
+  list:
+    - data:
+        DB_USER:  "expense"
+        DB_PWD: "ExpenseApp@1"
 
 
 secrets:
   enabled: true
 
 externalSecret:
-  enabled: true
+  enabled: false
 
 secretStoreRef:
   name: vault-backend 
